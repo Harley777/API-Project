@@ -8,9 +8,42 @@
 
 
 header {
-  padding-left: 10px;
+  display: flex;
   color: var(--Primary-brand-color);
   align-items: center;
   font-family: var(--logo-font);
   background-color: var(--header-background-color);
+}
+
+img {
+padding-bottom: 50px;
+padding-right: 100px;
+flex: center;
+width: 550px;
+}
+
+header, footer{
+align-items: center;
+background-color: var(--header-background-color);
+
+}
+
+h2 {
+  color: var(--Primary-brand-color);
+  background-color: var(--header-background-color);
+}
+
+main {
+background-color: #de6767;
+}
+
+
+footer {
+  padding-top: 50px;
+  background-color: var(--header-background-color);
+}
+
+.search-box {
+  position: right;
+  font-family: var(--logo-font);
 }
