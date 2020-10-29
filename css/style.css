@@ -19,7 +19,8 @@ img {
 padding-bottom: 50px;
 padding-right: 100px;
 flex: center;
-width: 550px;
+width: 900px;
+height: 850px;
 }
 
 header, footer{
@@ -33,10 +34,10 @@ h2 {
   background-color: var(--header-background-color);
 }
 
-main {
-background-color: #de6767;
-}
 
+main {
+background-color: #240e0e;
+}
 
 footer {
   padding-top: 50px;
@@ -47,3 +48,4 @@ footer {
   position: right;
   font-family: var(--logo-font);
 }
+
